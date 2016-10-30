@@ -1,0 +1,18 @@
+
+    function ex()
+
+        % a)
+
+    a=[0, 0.1, ..., 2]
+    de la 0 la 2
+    cu 0.1
+    b= va avea 21 elemente
+
+        % b)
+    prod = a*b;
+    prod_revers = b*a;
+    
+       % c)
+    for i = 1:1:length(a)
+        rez(i) = a(i) * b(i);
+    end    

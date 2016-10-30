@@ -1,0 +1,12 @@
+function complex = ex()
+
+n = 20;
+
+i = sqrt(-1);
+for k = 1:1:N
+    rng('shuffle');
+    a = randi();
+    b = randi();
+    complex(k) = a*i+b;
+    end
+end
